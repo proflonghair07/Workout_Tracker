@@ -7,7 +7,7 @@ let db = require("../models");
 // });
 
 mongoose
-  .connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
+  .connect(process.env.MONGODB_URI || "mongodb://localhost/fitness-tracker", {
     useNewUrlParser: true,
   })
   .then(() => console.log("Connected to MongoDB successfully!"))
